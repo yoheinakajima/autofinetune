@@ -48,6 +48,9 @@ Welcome to `autofinetune`, a project by [yoheinakajima](https://twitter.com/yohe
    export OPENAI_API_KEY='your_openai_api_key_here'
    export TOGETHER_API_KEY='your_together_api_key_here'
    ```
+### Environment Variables
+
+Before running `autofinetune`, ensure you've set the `OPENAI_API_KEY` and `TOGETHER_API_KEY` environment variables. This approach keeps your API keys secure. Use `export` on Unix/Linux/macOS or `set` on Windows to define these variables in your terminal session. Alternatively, for local development, you might choose to use a `.env` file (not tracked by Git) to define these values and load them with a package like `python-dotenv`.
 
 ### Running autofinetune
 
