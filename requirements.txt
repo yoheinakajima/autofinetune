@@ -1,0 +1,2 @@
+openai>=0.10.2
+together>=0.1.5
